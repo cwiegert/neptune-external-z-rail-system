@@ -19,18 +19,6 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 - The current offset on the x axis endstop switch is designed to fit the stock position, and the finger added to the x axis printhead will trigger a stock 0 point.
 
 - **finish writing the pre-reqs here... make sure to put the basics up top**
-- 
-
-
-This repository contains **STEP** and **STL** files for a custom Z-axis linear rail mounting system designed specifically for the **Elegoo Neptune 4 Pro** 3D printer.
-
-## 📦 Contents
-
-The following files are included in this repo:
-
-- `STEP/` – 3D CAD files for modification or inspection in parametric design tools (e.g., Fusion 360, FreeCAD, SolidWorks)
-- `STL/` – Mesh files ready for 3D printing
-- `README.md` – Project documentation
 
 ## 📦 BOM
 <small>
@@ -58,9 +46,9 @@ The following files are included in this repo:
 
 ## 🧰 Tools Required
 
-- Linear rail: **MGN12H** or similar (confirmed fit recommended)
-- M3/M4 hardware for mounting (bolts, nuts, washers)
-- Optional: Printed spacers or shims (included)
+- 
+- 
+- 
 
 ## 🛠️ Installation Overview
 
