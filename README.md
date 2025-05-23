@@ -53,24 +53,49 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 ## 🛠️ Installation Overview
 
 1. **Print the STL files** using your Neptune 4 Pro or another 3D printer.
-2. **Disassemble** the original Z-axis lead screw carriage if necessary.
-3. **Mount the linear rail** to the Z gantry using provided mounting holes and printed brackets.
-4. **Attach the carriage** to the linear rail block using the printed or CNC’d mount.
-5. **Reassemble and test movement** using manual motion or G-code commands.
+2. **Disassemble** the original Z-axis lead screw carriage if necessary.   This is self expanatory, and there are no parts from the stock z axis hardware that is reused except for limit switch
+3. **Mount the linear rail** to the Z gantry using provided mounting holes and printed brackets.   **DO NOT ADD THE CARRAIGES**   If you add the carraiges first, YOU WILL LOSE bearings when you attempt to slide the entire assembly onto the rails  <will detail more here>
+4. **Assemble the X axis extrusion**  The X axis brackets are designed to fit a 2020 extrusion and for not, not designed for the stock extrusion.   Future will add X hangers for the stock extrusion.   However
+   the x hangers are built to use 4mm T-nut hangers and be adjusted after lowering the assembly onto the gantry upgrights.   Use the x axis leveling blocks to ensure your axis is level and leave all the X extrusion
+   mounting screws loose.   You will tighten them after attaching the carraiges.   
+5. **Attach the carriage**  Once the X extrusion is in place, slide the carraiges  onto the rails, and into the hangers after the assembly.  Mount them to the X axis bracket with the 4 x M3x8 flat head screws and tighten the carraiges
+   Slide the X axis up and down a couple times.   When installing, I usually tighten the top screw of the rails, loosen all the others, and start tightenging the rail after this sliding motion.   After this sliding motion, rest
+   the axis on the leveling blocks again, and tighten the screw on each rail which is closest to the X axis.   Then slide the X axis to the bottom, tighten the bottom rail screw, and proceed to tighten all remaining rail screws.  
+6. **Tightening the X extrusion hangers**   Now it's time to tighten the exposed screw on the X extrusion bracket.   A hole in the lead screw hanger will give you access to the M4 mounting screw.   Tighten the 1, and remove the entire
+    entire assembly from the gantry and tighen the screw which is hidden behind the gantry extrusion.      **REMOVE THE CARRAIGES**, yes, you have to remove the carraiges again, and reload the assembly onto the gantry extrusions.  Then, follow the instructions to attach the carraiges.   Your motion system should now be aligned and level
+7. **Mount Assembly to the Lead Screw Nuts** whether you're using stock lead screw nuts, or Oldhams, now is the time to attach the lead screws to the system.   assemble as you normally would, with the screws being loose on on the stock nut, and tight if you're using Oldham's.
+8.  **Mount your printhead and belt**  _several options will need to be detailed here_
 
-> ⚠️ Ensure the linear rail is **parallel to the Z extrusion** and secured tightly for best performance.
 
 ## 📌 Compatibility
 
-- **Printer:** Elegoo Neptune 4 Pro
-- **Rail type:** MGN12H (or similar) with 300mm recommended length
+- **Printer:** Elegoo Neptune 4 Pro, will likely work on all Neptune versions, but not tested.   If not using a X axis endstop, the Motor side double shear cover would not be needed
+- **X Axis and extrusion** currently only supported on a X rail upgrade from @SilencedFrost as referenced in the BOM above
+- **X Axis motor and motion**  requires the Lamarc double shear upgrade.   It may be compatible with stock limit switch and cover, but not tested
+- **Rail type:** MGN12H (or similar) with 330mm recommended length
 - **Clearances:** Designed to maintain compatibility with stock frame dimensions
 
 ## 🧪 Notes
 
 - Files are designed with **tight tolerances** to minimize backlash.
 - STEP files are included so you can modify dimensions or hole patterns as needed.
-- It is recommended to use **thread locker** on metal-to-metal fasteners.
+- Be sure to tune your flow and PA, there are very tight tollerances designed into the parts, and there will be no design to relax the tollerances
+- Supports are built in, and desinged to be break-away after cooling.   Difficult to remove supports with hot/warm part
+- ASA-CF does not seem to hold up to screw pressure to well.   As the screw head puts pressure on the assembly, the ASA catestophically fails and splits the parts
+- Socket head screws used where over tightening will not cause splitting
+- 
+
+## 🛠️ Printing suggestions
+- 0.4mm nozzle
+- ASA-CF, PETG-GF, ASA or more rigid filaments.
+- 0.2 layer height
+- 0.45 layer width
+- no supports, all necessary supports are built in
+- Lead screw hangers printed with lead screw hole on build plate
+- Double Shear parts printed with "cap" on plate - all parts with largest flat surface on plate
+- Tensioner knob - not necessary, but included as a longer knob portion to account for camera hanger knob lock
+- 
+
 
 ## 🤝 Contributing
 
