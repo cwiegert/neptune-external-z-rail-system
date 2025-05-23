@@ -46,9 +46,9 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 
 ## 🧰 Tools Required
 
-- 
-- 
-- 
+- A working printer
+- Hex drivers 2.5 and 2.0
+- Soldering Iron (insert ends optional but recommended)
 
 ## 🛠️ Installation Overview
 
@@ -83,7 +83,7 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 - Supports are built in, and desinged to be break-away after cooling.   Difficult to remove supports with hot/warm part
 - ASA-CF does not seem to hold up to screw pressure to well.   As the screw head puts pressure on the assembly, the ASA catestophically fails and splits the parts
 - Socket head screws used where over tightening will not cause splitting
-- 
+
 
 ## 🛠️ Printing suggestions
 - 0.4mm nozzle
@@ -94,7 +94,7 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 - Lead screw hangers printed with lead screw hole on build plate
 - Double Shear parts printed with "cap" on plate - all parts with largest flat surface on plate
 - Tensioner knob - not necessary, but included as a longer knob portion to account for camera hanger knob lock
-- 
+
 
 
 ## 🤝 Contributing
