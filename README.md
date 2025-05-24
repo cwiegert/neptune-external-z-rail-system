@@ -6,19 +6,60 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 
 ## 📦 Some basics to start wtih
 
+- **This is an advanced mod adn not something to be taking lightly.   several different components are included in this modification and should only be done by someone with experience with complicated modifications**
+
 - MGN12H rails are used, with the larger H carriages.
 
 - Suggest to use light load Z rails, especially if you have a Beacon H or any other eddy probe. Any heavier preload will cause Z axis noise and cause the eddy to trigger early.
 
-- There are prerequisites, that you may want to consider. Initial release is designed to work with the SilencedFrost X axis rail upgrade and the Layer.Shifted double shear X motor upgrade.
+- There are prerequisites, you may want to consider. Initial release is designed to work with the SilencedFrost X axis rail upgrade and the Layer.Shifted double shear X motor upgrade.
 
-- While changing the mount, I upgraded to a 48mm motor, over the 39mm on the stock Neptune 4 Pro. The standard motor will work - but I had an extra, so why not.
+- While changing the mount, consider an upgrade to a 48mm motor, over the 39mm on the stock Neptune 4 Pro. The standard motor will work.
 
-- All files have included in this repo which were sourced from other mods, have been modified to work for this kit.   Including the printhead hanger for the x axis rail modification.   Because the end stop switch is flipped from stock, a finger on top of the rail was required for in this mod
+- All files have included in this repo which were sourced from other mods, have been modified to work for this kit.   Including the printhead hanger for the x axis rail modification and modded to support the end stop switch being flipped from stock, requireing a  finger on top of the rail to activate the end switch
 
-- The current offset on the x axis endstop switch is designed to fit the stock position, and the finger added to the x axis printhead will trigger a stock 0 point.
+- The current offset on the x axis endstop switch is designed to fit the stock position, and the finger added to the x axis printhead will trigger a stock -8.5mm
 
-- **finish writing the pre-reqs here... make sure to put the basics up top**
+## 🧰 Tools Required
+
+- A working printer
+- Hex drivers 2.5 and 2.0
+- Soldering Iron (insert ends optional but recommended)
+
+## 🛠️ Installation Overview
+
+1. **Print the STL files** using your Neptune 4 Pro or another 3D printer.
+2. **Disassemble** the original Z-axis lead screw carriage if necessary.   This is self expanatory, and there are no parts from the stock z axis hardware that is reused except for limit switch
+3. **Mount the linear rail** to the Z gantry using provided mounting holes and printed brackets.   There is a 20x20x20 spacer block in the .stl directory which you can use to mount the 330mm rail.  Easiest to tighten 1 screw on the rail, put the block on the top of the rail, and align it to the top of the gantry extrusion (with the top rail removed) The rail will line up to give about 5 mm travel room for the carraige when the print head hits the bed.  Mounting the rails will require the roll in t-nuts attached to M3x8mm screws spaced every other hole.   Start with the 2 end holes, and place a screw in every other hole.   **DO NOT ADD THE CARRAIGES**   If you add the carraiges first, YOU WILL LOSE bearings when you attempt to slide the entire assembly onto the rails
+4. **Assemble the X axis extrusion**  The X axis brackets are designed to fit a 2020 extrusion and not designed for the stock extrusion.  The holes in the mounting arm are not meant to line up with the holes on the stock extrusion.   In the fututure a mod will be available to mount to the stock extrusion mounting holes.   However
+   the x hangers are built to use 4mm T-nut hangers and be adjusted after lowering the assembly onto the gantry upgrights.   Use the x axis leveling blocks to ensure your axis is level and leave all the X extrusion
+   mounting screws loose.   You will tighten them after attaching the carraiges.   
+5. **Attach the carriage**  Once the X extrusion is in place, slide the carraiges  onto the rails, and into the hangers after the assembly.  Mount them to the X axis bracket with the 4 x M3x8 flat head screws and tighten the carraiges
+   Slide the X axis up and down a couple times.   When installing, I usually tighten the top screw of the rails, loosen all the others, and start tightenging the rail after this sliding motion.   After this sliding motion, rest
+   the axis on the leveling blocks again, and tighten the screw on each rail which is closest to the X axis.   Then slide the X axis to the bottom, tighten the bottom rail screw, and proceed to tighten all remaining rail screws.  
+6. **Tightening the X extrusion hangers**   Now it's time to tighten the exposed screw on the X extrusion bracket.   A hole in the lead screw hanger will give you access to the M4 mounting screw.   Tighten the 1, and remove the entire
+    entire assembly from the gantry and tighen the screw which is hidden behind the gantry extrusion.      **REMOVE THE CARRAIGES**, yes, you have to remove the carraiges again, and reload the assembly onto the gantry extrusions.  Then, follow the instructions to attach the carraiges.   Your motion system should now be aligned and level
+7. **Mount Assembly to the Lead Screw Nuts** whether you're using stock lead screw nuts, or Oldhams, now is the time to attach the lead screws to the system.   assemble as you normally would, with the screws being loose on on the stock nut, and tight if you're using Oldham's.
+8.  **Mount your printhead and belt**  _several options will need to be detailed here_
+
+
+## 📌 Compatibility
+
+- **Printer:** Elegoo Neptune 4 Pro, will likely work on all Neptune versions, but not tested.   If not using a X axis endstop, the Motor side double shear cover would not be needed
+- **X Axis and extrusion** currently only supported on a X rail upgrade from @SilencedFrost as referenced in the BOM above
+- **X Axis motor and motion**  requires the Lamarc double shear upgrade.   It may be compatible with stock limit switch and cover, but not tested
+- **Rail type:** MGN12H (or similar) with 330mm recommended length.  .step files provided to invite mods for longer x extrusions and mods like purge buckets outside the print area
+- **Clearances:** Designed to maintain compatibility with stock frame dimensions.  
+
+## 🧪 Notes
+
+- **IMPORTANT** Files are designed with **tight tolerances** to minimize backlash and reduce resonance vibrations
+- .step files are included so you can modify dimensions or hole patterns as needed
+- Be sure to tune your flow and PA, there are very tight tollerances designed into the parts, and there will be no design to relax the tollerances
+- Supports are built in, and desinged to be break-away after cooling.   Difficult to remove supports with hot/warm part
+- ASA-CF does not seem to hold up to screw pressure to well.   As the screw head puts pressure on the assembly, the ASA catestophically fails and splits the parts.   PETG-GF can be used as alternative where screw pressure causes ASA to fail
+- Socket head screws used where over tightening will not cause splitting
+
 
 ## 📦 BOM
 <small>
@@ -43,47 +84,6 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 | 16   | Layer.Shifted X-Motor Double Shear Mount    | 1        | [Printables](https://www.printables.com/model/1222791-neptune-44pro-x-axis-double-shear-motor-upgrade)            | Source for some of the base files, remix included in this repo|
 
 </small>
-
-## 🧰 Tools Required
-
-- A working printer
-- Hex drivers 2.5 and 2.0
-- Soldering Iron (insert ends optional but recommended)
-
-## 🛠️ Installation Overview
-
-1. **Print the STL files** using your Neptune 4 Pro or another 3D printer.
-2. **Disassemble** the original Z-axis lead screw carriage if necessary.   This is self expanatory, and there are no parts from the stock z axis hardware that is reused except for limit switch
-3. **Mount the linear rail** to the Z gantry using provided mounting holes and printed brackets.   **DO NOT ADD THE CARRAIGES**   If you add the carraiges first, YOU WILL LOSE bearings when you attempt to slide the entire assembly onto the rails  <will detail more here>
-4. **Assemble the X axis extrusion**  The X axis brackets are designed to fit a 2020 extrusion and for not, not designed for the stock extrusion.   Future will add X hangers for the stock extrusion.   However
-   the x hangers are built to use 4mm T-nut hangers and be adjusted after lowering the assembly onto the gantry upgrights.   Use the x axis leveling blocks to ensure your axis is level and leave all the X extrusion
-   mounting screws loose.   You will tighten them after attaching the carraiges.   
-5. **Attach the carriage**  Once the X extrusion is in place, slide the carraiges  onto the rails, and into the hangers after the assembly.  Mount them to the X axis bracket with the 4 x M3x8 flat head screws and tighten the carraiges
-   Slide the X axis up and down a couple times.   When installing, I usually tighten the top screw of the rails, loosen all the others, and start tightenging the rail after this sliding motion.   After this sliding motion, rest
-   the axis on the leveling blocks again, and tighten the screw on each rail which is closest to the X axis.   Then slide the X axis to the bottom, tighten the bottom rail screw, and proceed to tighten all remaining rail screws.  
-6. **Tightening the X extrusion hangers**   Now it's time to tighten the exposed screw on the X extrusion bracket.   A hole in the lead screw hanger will give you access to the M4 mounting screw.   Tighten the 1, and remove the entire
-    entire assembly from the gantry and tighen the screw which is hidden behind the gantry extrusion.      **REMOVE THE CARRAIGES**, yes, you have to remove the carraiges again, and reload the assembly onto the gantry extrusions.  Then, follow the instructions to attach the carraiges.   Your motion system should now be aligned and level
-7. **Mount Assembly to the Lead Screw Nuts** whether you're using stock lead screw nuts, or Oldhams, now is the time to attach the lead screws to the system.   assemble as you normally would, with the screws being loose on on the stock nut, and tight if you're using Oldham's.
-8.  **Mount your printhead and belt**  _several options will need to be detailed here_
-
-
-## 📌 Compatibility
-
-- **Printer:** Elegoo Neptune 4 Pro, will likely work on all Neptune versions, but not tested.   If not using a X axis endstop, the Motor side double shear cover would not be needed
-- **X Axis and extrusion** currently only supported on a X rail upgrade from @SilencedFrost as referenced in the BOM above
-- **X Axis motor and motion**  requires the Lamarc double shear upgrade.   It may be compatible with stock limit switch and cover, but not tested
-- **Rail type:** MGN12H (or similar) with 330mm recommended length
-- **Clearances:** Designed to maintain compatibility with stock frame dimensions
-
-## 🧪 Notes
-
-- Files are designed with **tight tolerances** to minimize backlash.
-- STEP files are included so you can modify dimensions or hole patterns as needed.
-- Be sure to tune your flow and PA, there are very tight tollerances designed into the parts, and there will be no design to relax the tollerances
-- Supports are built in, and desinged to be break-away after cooling.   Difficult to remove supports with hot/warm part
-- ASA-CF does not seem to hold up to screw pressure to well.   As the screw head puts pressure on the assembly, the ASA catestophically fails and splits the parts
-- Socket head screws used where over tightening will not cause splitting
-
 
 ## 🛠️ Printing suggestions
 - 0.4mm nozzle
