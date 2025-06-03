@@ -28,19 +28,18 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 
 ## 🛠️ Installation Overview
 
-1. **Print the STL files** using your Neptune 4 Pro or another 3D printer.
-2. **Disassemble** the original Z-axis lead screw carriage if necessary.   This is self expanatory, and there are no parts from the stock z axis hardware that is reused except for limit switch
-3. **Mount the linear rail** to the Z gantry using provided mounting holes and printed brackets.   There is a 20x20x20 spacer block in the .stl directory which you can use to mount the 330mm rail.  Easiest to tighten 1 screw on the rail, put the block on the top of the rail, and align it to the top of the gantry extrusion (with the top rail removed) The rail will line up to give about 5 mm travel room for the carraige when the print head hits the bed.  Mounting the rails will require the roll in t-nuts attached to M3x8mm screws spaced every other hole.   Start with the 2 end holes, and place a screw in every other hole.   **DO NOT ADD THE CARRAIGES**   If you add the carraiges first, YOU WILL LOSE bearings when you attempt to slide the entire assembly onto the rails
-4. **Assemble the X axis extrusion**  The X axis brackets are designed to fit a 2020 extrusion and not designed for the stock extrusion.  The holes in the mounting arm are not meant to line up with the holes on the stock extrusion.   In the fututure a mod will be available to mount to the stock extrusion mounting holes.   However
-   the x hangers are built to use 4mm T-nut hangers and be adjusted after lowering the assembly onto the gantry upgrights.   Use the x axis leveling blocks to ensure your axis is level and leave all the X extrusion
-   mounting screws loose.   You will tighten them after attaching the carraiges.   
-5. **Attach the carriage**  Once the X extrusion is in place, slide the carraiges  onto the rails, and into the hangers after the assembly.  Mount them to the X axis bracket with the 4 x M3x8 flat head screws and tighten the carraiges
-   Slide the X axis up and down a couple times.   When installing, I usually tighten the top screw of the rails, loosen all the others, and start tightenging the rail after this sliding motion.   After this sliding motion, rest
-   the axis on the leveling blocks again, and tighten the screw on each rail which is closest to the X axis.   Then slide the X axis to the bottom, tighten the bottom rail screw, and proceed to tighten all remaining rail screws.  
-6. **Tightening the X extrusion hangers**   Now it's time to tighten the exposed screw on the X extrusion bracket.   A hole in the lead screw hanger will give you access to the M4 mounting screw.   Tighten the 1, and remove the entire
-    entire assembly from the gantry and tighen the screw which is hidden behind the gantry extrusion.      **REMOVE THE CARRAIGES**, yes, you have to remove the carraiges again, and reload the assembly onto the gantry extrusions.  Then, follow the instructions to attach the carraiges.   Your motion system should now be aligned and level
-7. **Mount Assembly to the Lead Screw Nuts** whether you're using stock lead screw nuts, or Oldhams, now is the time to attach the lead screws to the system.   assemble as you normally would, with the screws being loose on on the stock nut, and tight if you're using Oldham's.
-8.  **Mount your printhead and belt**  _several options will need to be detailed here_
+| Step | Instruction | Image |
+|------|-------------|-------|
+| 1 | **Print the STL files** using your Neptune 4 Pro or another 3D printer. | ![Step 1](image1.png) |
+| 2 | **Disassemble** the original Z-axis lead screw carriage if necessary. This is self-explanatory, and there are no parts from the stock Z-axis hardware that are reused except for the limit switch. | ![Step 2](image2.png) |
+| 3 | **Mount the linear rail** to the Z gantry using provided mounting holes and printed brackets. Use the `20x20x20` spacer block from the STL directory to position the 330mm rail. Tighten one rail screw, place the block on top, and align to the top of the gantry extrusion (with the top rail removed). This will give about 5mm of carriage travel before hitting the bed. Use roll-in T-nuts and M3x8mm screws spaced every other hole, starting with both ends. **DO NOT ADD THE CARRIAGES YET** — you will lose bearings if you try to install the assembly all at once. | ![Step 3](image3.png) |
+| 4 | **Assemble the X-axis extrusion**. The X-axis brackets are designed for 2020 extrusion and not the stock one. The bracket mounting holes won’t align with stock extrusion holes. A future mod may support this. The X hangers use M4 T-nuts and allow vertical adjustment. Lower the assembly onto the gantry uprights, and use the X-axis leveling blocks to level. Leave all X extrusion screws loose for now; tighten them later after carriage alignment. | ![Step 4](image4.png) |
+| 5 | **Attach the carriage**. With the X extrusion in place, slide the carriages onto the rails and into the hangers. Mount them to the X-axis bracket with 4× M3x8mm flat head screws. Slide the X axis up/down a few times. Then: 1) Tighten the top rail screw. 2) Loosen others. 3) Slide again. 4) Rest on leveling blocks. 5) Tighten screw nearest to X-axis on both rails. 6) Slide to bottom. 7) Tighten bottom screws. Finish by tightening remaining screws. | ![Step 5](image5.png) |
+| 6 | **Tighten the X extrusion hangers**. Tighten the visible M4 screw in the X extrusion bracket using the access hole in the lead screw hanger. Remove the assembly from the gantry to access and tighten the hidden screw. **REMOVE THE CARRIAGES AGAIN**, reinstall onto the gantry extrusions, and repeat the carriage attachment instructions. Your motion system should now be aligned and level. | ![Step 6](image6.png) |
+| 7 | **Mount assembly to the lead screw nuts**. Whether using stock nuts or Oldhams, now attach the lead screws. If using stock nuts: leave screws loose. If using Oldhams: tighten fully. | ![Step 7](image7.png) |
+| 8 | **Mount your printhead and belt**. _Several options will need to be detailed here._ | ![Step 8](image8.png) |
+
+
 
 
 ## 📌 Compatibility
