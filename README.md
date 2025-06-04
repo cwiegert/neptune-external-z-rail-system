@@ -77,6 +77,7 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 | 7   | M3 x L4 x D5 Heat Insert | 6 | [Amazon](https://www.amazon.com/dp/B0CS6VZYL8)    |  used for the heavier holding joints|
 | 8   | M3 x 25 Socket Head Screw  |  2     |[Amazon](https://www.amazon.com/dp/B07NSX12DP)   |  mounting the tensioner cover to the X mounting bracket|
 | 9   | M3 x 40 Socket Head Screw  | 4  |  [Amazon](https://www.amazon.com/dp/B0D5CQ5SX3)  | mounting the double shear cover to the base and motor.   Purchased a bundle instead of all independent  |
+| 10 | M3 x 45 Flat Head Screw | 1 | [Amazon](https://www.amazon.com/iexcell-Thread-Stainless-Socket-Screws/dp/B0CR6F4FQ2/ref=sr_1_3?crid=PM0GITL2CZU1&dib=eyJ2IjoiMSJ9.T676B9T6dQbunMhyRA0TNXkBoO-nPCkQ4SnpQQ6F3_4jmDoyINuJ31jmmUsZlpzi1LE6w-9rYqs60r2jXmNmnJ4QDKGnRYtXAhCVfWKc8MiLy-mtjGhuOznEJc83rtjNpP4i8G5F12gJgmq2mZMLoH2nYN7_Yi1MBiOkW0bhwjujedLfXf9vtfBdDc0MYfmeCQepIam53jqm8PsIsSr2cHTu5ZPISqoiEXly6OOTqn8.OS5zB21WLpXeArFbxTze_2pfss5rVPPspHQnTr4Alm4&dib_tag=se&keywords=m3+x+45mm+flat+head+screws&qid=1748998823&sprefix=m3+x+45mm+flat+head+screws%2Caps%2C154&sr=8-3) | mounting the tensioner knob |
 | 10  | M6 Gates GT2 belt    | 1  | [Amazon](https://www.amazon.com/dp/B08R93QQ8Z)  | new belt for futre extension of x axis length  |
 | 11  | M5 x 20 steel Dowel  | 1   | [Amazon](https://www.amazon.com/dp/B07MB8QMT8)  | for the idler pulley  |
 | 12  | M3 Spring T Nut 2020 | 14  | [Amazon](https://www.amazon.com/dp/B09H5B17GT)  | mounting the rails    |
@@ -85,6 +86,7 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 | 15   | SilencedFrost X-Axis Rail Upgrade           | 1        | [Github](https://github.com/SilencedFrost/Neptune-4-series-X-rail)        | Supporting Parts, Printhead back from here                      |
 | 16   | Layer.Shifted X-Motor Double Shear Mount    | 1        | [Printables](https://www.printables.com/model/1222791-neptune-44pro-x-axis-double-shear-motor-upgrade)            | Source for some of the base files, remix included in this repo|
 | 17 | X axis extrusion leveler | 1 | [Printables](https://www.printables.com/model/680531-elegoo-neptune-4-pro-gantry-level/files)|Source files for the x axis levelers|
+| 18 | Carriage block assembly helper | 2 | [Printables](https://www.printables.com/model/118195-mgn9-mgn12-blockcarriage-disassembly-helpers)| Source for bearing keeper|
 
 </small>
 
