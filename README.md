@@ -20,6 +20,7 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 - All files have included in this repo which were sourced from other mods, have been modified to work for this kit.   Including the printhead hanger for the x axis rail modification and modded to support the end stop switch being flipped from stock, requireing a  finger on top of the rail to activate the end switch
 
 - The current offset on the x axis endstop switch is designed to fit the stock position, and the finger added to the x axis printhead will trigger a stock -8.5mm
+- **If you are using a tensioner idler pulley larger than a Gates Spec, be sure to print the Large profile tensioner housing**
 
 ## 🧰 Tools Required
 
@@ -40,7 +41,18 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 | 7 | **Attach the carriage.** With the X extrusion in place, slide the carriages onto the rails and into the hangers. Mount them to the X-axis bracket with 4× M3x8mm flat head screws. Slide the X axis up/down a few times. Then:<br>&nbsp;&nbsp;&nbsp;&nbsp;1. Tighten the top rail screw.<br>&nbsp;&nbsp;&nbsp;&nbsp;2. Loosen other screws<br>&nbsp;&nbsp;&nbsp;&nbsp;3. Slide the X axis up and down again<br>&nbsp;&nbsp;&nbsp;&nbsp;4. Rest the X extrusion on the leveling blocks<br>&nbsp;&nbsp;&nbsp;&nbsp;5. Tighten screw nearest to X-axis on both rails<br>&nbsp;&nbsp;&nbsp;&nbsp;6. Slide the X extrusion to bottom of the rails<br>&nbsp;&nbsp;&nbsp;&nbsp;7. Tighten bottom screws<br>&nbsp;&nbsp;&nbsp;&nbsp;8. Finish by tightening remaining screws<br><br><br>   At this point the carraige and the rails should be aligned and parallel to each other and the x extrusion should move freely with little to no friction |  ![Step 5](image5.png) |
 | 8 | **Tighten the X extrusion hangers**. Tighten the visible M4 screw in the X extrusion bracket using the access hole in the lead screw hanger. Remove the assembly from the gantry to access and tighten the hidden screw. Using the method described in step 4 **REMOVE THE CARRIAGES AGAIN**, repeat step 7 exactly. <br><br>Your motion system should now be aligned and level. | ![Step 6](image6.png) |
 | 9 | **Mount assembly to the lead screw nuts**. Whether using stock nuts or Oldhams, attach the lead screws. If using stock nuts: leave screws loose. If using Oldhams: tighten fully. | ![Step 7](image7.png) |
-| 10 | **Mount your printhead and belt**. _Several options will need to be detailed here._ | ![Step 8](image8.png) |
+| 10 | Slide the Printhead hanger onto the front rail.   Again, you will need to upgrade to the SilencedFrost front rail hanger system, or use a top rail from the TbStrong X axis rail system to use this upgrade.  There is no adapatation to the stock Neptune 4 Pro x extrusion.   Have not tested with the other Neptune 4 series. |  |
+| 11 | Slide the motor into the receiver on the left side of the gantry.   The motor should be difficult to slide into the receiver, and best to slide the outside into the holder, then push the back of the motor towards the linear rail carraige | |
+| 12 | Follow the assembly instructions from the Layer.shifted double shear block, to mount the bearing into the holder, and the end stop into the cap of the double shear holder |  |
+| 13 | Slide your belt pulley onto the belt, leave the grub nut loose.  Pressure fit the double shear pulley assembly onto the motor hanger, and add the end stop mount to the assembly by inserting the 4 screws and start them into the motor.   Don't tighten them yet, just finger tight to hold the assembly together| |
+| 14 |  Insert the pulley preload tool between the belt pulley and bearing of the double shear motor mount.   This tool aligns the pulley with the center of the x axis extrusion and gives enough standoff to avoid rubbing on the shaft reinforcement bearing. |  |
+| 15 |  Assemble the tensioner by adding the heat insert and the M3x45mm screw to the back of the tensioner | |
+| 16 |  Assemble the idler pulley in the tensioner using the M5x20mm dowel.   **If you are not using a Gates spec pulley, use the Large profile tensioner housing **  The tensioner slide will allow for 22mm dowel if you have 1 left over from another mod | |
+| 17 | run the belt around the 2 pulleys and  making sure the tensioner pulley is onto the belt the correct way.   You will need to make sure the belt is around the tensioner pulley before mounting the pulley to the cover. |  |
+| 18 | Slide the tensioner into the tensioner cover, and pressure fit the tensioner cover to the x axis mount adn tighten the 4 M3x35 socket head screws  |  |
+| 19 | If you are using the c270 camera holer, add the mounting block prior to adding the tensioner nob.   There is no permanent mounting assembly for the block, it is loose fitting and held by the tension of the tensioner knob.   The teardop around the mounting hole will register into the profile on the end of the tensioner cover.   Add either the stock or the included tensioner knob and tighten slightly |  |
+| 20 |  Tighten the belt to the print head hanger and assembly | |
+| 21 |  Add the print head, and tune.   Tension the x belt to the appropriate tension (roughly 130 HZ for sock length Neptune 4 Pro)
 
 
 
@@ -73,7 +85,7 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 | 3   | M3 x 6 Flat head Screws                     | 8        | [Amazon](https://www.amazon.com/dp/B0CG9K1NDX?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_2) | Mounting the carraiges to the X axis brackets   |
 | 4   | M3 x 8mm Button Head Screws                   | 4       | [Amazon](https://www.amazon.com/dp/B083HD61FV)                   | Mounting Lead screw hanger to the X axis bracket            |
 | 5   | Gates Powergrip® 2GT Toothed Idler 20T              | 1        | [PrintedSolid](https://www.printedsolid.com/products/gates-powergrip-2gt-toothed-idler-5mm-id?variant=21236971241557)          |  upgraded to a gates spec on the X axis idler   |
-| 6   | M3 x L4 x D4.2 Heat Insert  | 6    |  [Amazon](https://www.amazon.com/dp/B0BBSLL6G7)  |  These are the small heat inserts
+| 6   | M3 x L4 x D4.2 Heat Insert  | 10    |  [Amazon](https://www.amazon.com/dp/B0BBSLL6G7)  |  These are the small heat inserts
 | 7   | M3 x L4 x D5 Heat Insert | 6 | [Amazon](https://www.amazon.com/dp/B0CS6VZYL8)    |  used for the heavier holding joints|
 | 8   | M3 x 25 Socket Head Screw  |  2     |[Amazon](https://www.amazon.com/dp/B07NSX12DP)   |  mounting the tensioner cover to the X mounting bracket|
 | 9   | M3 x 40 Socket Head Screw  | 4  |  [Amazon](https://www.amazon.com/dp/B0D5CQ5SX3)  | mounting the double shear cover to the base and motor.   Purchased a bundle instead of all independent  |
@@ -100,7 +112,10 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 - Double Shear parts printed with "cap" on plate - all parts with largest flat surface on plate
 - Tensioner knob - not necessary, but included as a longer knob portion to account for camera hanger knob lock
 
-
+## 🛠️ Modifications Ecouraged
+- The step files are included to encourage creativity and modificaitons.   This is a starter pack and framework designed and implemented on a Neptune 4 Pro
+- If you have suggestions, please add an issue, and I will consider adding the additions as user modifications.
+- After enough beta testing, will consider making kit available on Printables.
 
 ## 🤝 Contributing
 
