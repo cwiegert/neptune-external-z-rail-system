@@ -36,8 +36,8 @@ This design incorporates rails on the outside of the Gantry.   Unlike the Tbstro
 | Step | Instruction | Image |
 |------|-------------|-------|
 | 1 | **Print the STL files** using your Neptune 4 Pro or another 3D printer. | |
-| 2 | **Disassemble** the original Z-axis lead screw carriage if necessary. This is self-explanatory, and there are no parts from the stock Z-axis hardware that are reused except for the limit switch. | ![Step 2](image2.png) |
-| 3 |  Add a M3x8 socket head screw, starting with the top and bottom, every other hole, and start a roll in t-nut to the rail |  |
+| 2 | **Disassemble** the original Z-axis lead screw carriage if necessary. This is self-explanatory, and there are no parts from the stock Z-axis hardware that are reused except for the limit switch. | |
+| 3 |  Add a M3x8 socket head screw to the rails, starting with the top and bottom, every other hole, and start a roll in t-nut to the rail |  |
 | 4 |  Using the bearing keeper from the tools, remove the carraiges from the linear rail by holding the keeper tight to the rail, and slowly sliding the carriages onto the bearing keeper |   |
 | 5 | **Mount the linear rail** to the Z gantry.   Use the `20x20x20` spacer block from the STL directory to position the 330mm rail. Tighten one rail screw, place the block on top, and align to the top of the gantry extrusion (with the top rail removed). This will give about 5mm of carriage travel before hitting the bed. Snap the MGN12H alingment tool to the bottom of the rail and align the rail to the center of the extrusion.   Tighten the bottom screw tight enough to hold the rail.   Move the alignment clip between the top 2 holes of the rail, loosen the top screw, snap the alignment rail to the extrusion and tighten the top screw just past finger tight.  , tighten them just past finger tight, moving the alignment jig up the rail as you go.   **DO NOT ADD THE CARRIAGES YET** — you will lose bearings if you try to install the assembly all at once. | ![Step 3](image3.png) |
 | 6 | Run the belt through the tensioner pulley and set the tensioner on the x extrusion.   It will register into the slides.   | |
